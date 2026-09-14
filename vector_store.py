@@ -59,5 +59,4 @@ class VectorStore:
                 documents=chunks[start:end],
                 embeddings=vectors[start:end].tolist(),
             )
-        print('Создан индекс: %s чанков", self.total_chunks')
-                
+        print(f"Создан индекс: {self.total_chunks} чанков")
